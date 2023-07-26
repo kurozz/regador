@@ -12,7 +12,7 @@ const long PUMP_ON_TIME_MIN = 1000;
 const long PUMP_ON_TIME_MAX = 60000;
 
 const int TIMES_PER_DAY = 4;
-const long TIME_BEFORE_RESET = (24*60*60*1000)/TIMES_PER_DAY;
+const long TIME_BEFORE_RESET = (24L*60L*60L*1000L)/TIMES_PER_DAY;
 
 void(* softReset) (void) = 0;
 
